@@ -1,0 +1,27 @@
+
+.modale-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #171717;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+  
+.ReactModal__Content {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 99%;
+    border: 4px solid #f59e0b;
+}
+  
+  
+@media (max-width: 767px) {
+    .modale-container{
+        width: 90%;
+        height: 90%;
+        margin-top: 30px;
+    }
+
+}
+

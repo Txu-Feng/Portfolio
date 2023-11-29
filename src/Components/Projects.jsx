@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import Aos from 'aos';
-import ProjectModale from './ProjectModale';
-import ProjectsData from '../data/projectsDatas';
+import ProjectModal from './ProjectModal';
+import ProjectsData from '../data/projectsData';
 
 const Projects = () => {
 
@@ -44,7 +44,7 @@ const Projects = () => {
         </div>
 
         {selectedProject && (
-        <ProjectModale
+        <ProjectModal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           project={selectedProject}

@@ -1,13 +1,13 @@
 import Aos from "aos";
 import { useEffect } from "react";
-import imgHTML from '../assets/skills/icons8-html-96.webp';
-import imgCSS from '../assets/skills/icons8-css-96.webp';
-import imgSASS from '../assets/skills/icons8-avatar-sass-96.webp';
-import imgJAVASCRIPT from '../assets/skills/icons8-javascript-96.webp';
-import imgREACT from '../assets/skills/icons8-react-a-javascript-library-for-building-user-interfaces-96.webp';
-import imgREDUX from '../assets/skills/icons8-redux-96.webp';
-import imgGIT from '../assets/skills/icons8-git-96.webp';
-import imgVISUALSTUDIO from '../assets/skills/icons8-visual-studio-96.webp';
+import imgHTML from '../assets/skills/html.webp';
+import imgCSS from '../assets/skills/css.webp';
+import imgSASS from '../assets/skills/sass.webp';
+import imgJAVASCRIPT from '../assets/skills/javascript.webp';
+import imgREACT from '../assets/skills/react.webp';
+import imgREDUX from '../assets/skills/redux.webp';
+import imgGIT from '../assets/skills/git.webp';
+import imgVISUALSTUDIO from '../assets/skills/visual-studio.webp';
 
 const Skills = () => {
     useEffect(()=> {
