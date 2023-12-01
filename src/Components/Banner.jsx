@@ -20,13 +20,13 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div data-aos="fade-up" className="flex space-x-5">
-                            <img src={imgFR} alt="" className='cursor-pointer'/>
-                            <img src={imgEN} alt="" />
+                            <img src={imgFR} alt="picture of the french flag" className='cursor-pointer' />
+                            <img src={imgEN} alt="picture of the english flag" />
                         </div>
                     </div>
                 </div>
             </div>
-            <img data-aos="fade-up" src={img} width={500} height={500} className='rounded-full  p-1' alt="" />
+            <img data-aos="fade-up" src={img} width={500} height={500} className='rounded-full  p-1' alt="picture of a computer on a desk and an orange stone" />
         </div>
     );
 };

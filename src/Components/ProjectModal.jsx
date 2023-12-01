@@ -52,7 +52,7 @@ const ProjectModal = ({ isOpen, onRequestClose, project }) => {
         }}
       >
         <button onClick={onRequestClose} className="text-amber-500 text-3xl self-end"><FaTimes/></button>
-        <img className="w-4/5 rounded-lg" src={project.images[1]} alt="Image du site" />
+        <img className="w-4/5 rounded-lg" src={project.images[1]} alt={"picture of the website "+project.titre} />
         <div className="text-white w-4/5 ">
           <h3 className="mt-7 text-xl font-bold inline-block mr-3">{project.title}</h3>
           <a href={project.github} target="_blank" rel="noopener noreferrer" title="see the code" className=" inline-block mr-3 text-amber-500">
@@ -64,7 +64,7 @@ const ProjectModal = ({ isOpen, onRequestClose, project }) => {
           <p className= "font-semibold mt-3 mb-8 ">{project.description}</p>
           <div className="grid grid-cols-10">
             {project.technologies.map((technologie, index) =>(
-              <img width={40} height={40} className="mb-10" key={index} src={techToImg(technologie)} alt={`Logo ${technologie}`} />
+              <img width={40} height={40} className="mb-10" key={index} src={techToImg(technologie)} alt={`Logo of the website ${technologie}`} />
             ))}
           </div>
         </div>

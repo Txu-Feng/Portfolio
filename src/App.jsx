@@ -33,7 +33,7 @@ const App = () => {
           </div>
           :
 
-          <div className="bg-neutral-900">
+          <div className="bg-neutral-900 overflow-hidden">
             <Nav />
             <Banner />
             <About />

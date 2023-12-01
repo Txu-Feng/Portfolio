@@ -22,31 +22,31 @@ const Skills = () => {
                 <h2 className="font-semibold text-white">HTML</h2>
             </div>
             <div data-aos="fade-down" className="flex items-center justify-center flex-col">
-                <img src={imgCSS} alt="" />
+                <img src={imgCSS} alt="picture of css language" />
                 <h2 className="font-semibold text-white">CSS</h2>
             </div>
             <div data-aos="fade-up" className="flex items-center justify-center flex-col">
-                <img src={imgSASS} alt="" />
+                <img src={imgSASS} alt="picture of sass language" />
                 <h2 className="font-semibold text-white">SASS</h2>
             </div>
             <div data-aos="fade-down" className="flex items-center justify-center flex-col">
-                <img src={imgJAVASCRIPT} alt="" />
+                <img src={imgJAVASCRIPT} alt="picture au javascript language" />
                 <h2 className="font-semibold text-white">JAVASCRIPT</h2>
             </div>
             <div data-aos="fade-up" className="flex items-center justify-center flex-col">
-                <img src={imgREACT} alt="" />
+                <img src={imgREACT} alt="picture of react framework" />
                 <h2 className="font-semibold text-white">REACT</h2>
             </div>
             <div data-aos="fade-down" className="flex items-center justify-center flex-col">
-                <img src={imgREDUX} alt="" />
+                <img src={imgREDUX} alt="picture of redux library" />
                 <h2 className="font-semibold text-white">REDUX</h2>
             </div>
             <div data-aos="fade-up" className="flex items-center justify-center flex-col">
-                <img src={imgGIT} alt="" />
+                <img src={imgGIT} alt="picture of git technology" />
                 <h2 className="font-semibold text-white">GIT</h2>
             </div>
             <div data-aos="fade-down" className="flex items-center justify-center flex-col">
-                <img src={imgVISUALSTUDIO} alt="" />
+                <img src={imgVISUALSTUDIO} alt="picture of visual studio environment" />
                 <h2 className="font-semibold text-white">VISUAL STUDIO</h2>
             </div>
         </div>
