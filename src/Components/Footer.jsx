@@ -8,13 +8,13 @@ const Footer = () => {
            <div className="flex flex-col items-center justify-center">
                 <h2 className="text-[22px] font-semibold text-amber-600 py-2 uppercase">Available Now</h2>
                 <div className="flex space-x-8 justify-center">
-                    <a className="text-white hover:text-amber-600 text-[30px] transition-all duration-150 ease-in-out" href="https://github.com/Txu-Feng">
+                    <a className="text-white hover:text-amber-600 text-[30px] transition-all duration-150 ease-in-out" href="https://github.com/Txu-Feng" target="_blank" rel="noopener noreferrer">
                         <FaGithub/>
                     </a>
-                    <a className="text-white hover:text-amber-600 text-[30px] transition-all duration-150 ease-in-out" href="tel:0646497925">
+                    <a className="text-white hover:text-amber-600 text-[30px] transition-all duration-150 ease-in-out" href="tel:0646497925" target="_blank" rel="noopener noreferrer">
                         <FaPhone/>
                     </a>
-                    <a className="text-white hover:text-amber-600 text-[30px] transition-all duration-150 ease-in-out" href="mailto:txu.feng.ly@gmail.com">
+                    <a className="text-white hover:text-amber-600 text-[30px] transition-all duration-150 ease-in-out" href="mailto:txu.feng.ly@gmail.com" target="_blank" rel="noopener noreferrer">
                         <MdMail />
                     </a>
                 </div>
